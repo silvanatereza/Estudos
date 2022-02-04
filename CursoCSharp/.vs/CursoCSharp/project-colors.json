@@ -10,7 +10,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Arquivos Diversos",
       "ColorIndex": -1
+    },
+    "c59607ba-2ccc-48ef-8457-a7d0db597798": {
+      "ProjectGuid": "c59607ba-2ccc-48ef-8457-a7d0db597798",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 1
+    },
+    "aa43f7bf-791c-407e-8310-ff1c99efd914": {
+      "ProjectGuid": "aa43f7bf-791c-407e-8310-ff1c99efd914",
+      "DisplayName": "Encapsulamento",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

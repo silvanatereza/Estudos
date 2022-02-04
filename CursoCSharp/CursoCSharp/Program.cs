@@ -5,6 +5,11 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClasseseMetodos;
 using CursoCSharp.colecoes;
+using CursoCSharp.Poo;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
+
 
 namespace CursoCSharp {
     class Program {
@@ -65,6 +70,36 @@ namespace CursoCSharp {
 
                 {"Array   - Coleções " ,  colecoes.Array.Executar },
                 {"list  - Coleções " ,  Colecoeslist.Executar },
+
+                 // POO
+                {"Herança  - Poo " ,  Heranca.Executar },
+                {"Construtor this   - Poo " ,  ConstrutorThis.Executar },
+                {"Polimorfismo   - Poo " ,  Polimorfismo.Executar },
+                {"Abstract   - Poo " ,  Abstract.Executar },
+                {"Interface   - Poo " ,  Interface.Executar },
+                {"Sealed   - Poo " ,  Sealed.Executar },
+
+
+                //Métdos e Funções 
+
+                {" Exemplo Lambda  -  Métodos e Funções  " ,  ExemploLambda.Executar },
+                {" Lambda Delegate -  Métodos e Funções  " , LambdasDelegate.Executar },
+                {" Usando Delegate -  Métodos e Funções  " , UsandoDelegates.Executar },
+                {" Delegate  Como Funçoes Anônimas -  Métodos e Funções  " , DelegateFunAnonima.Executar },
+                {" Delegate  Como Parâmetros -  Métodos e Funções  " , DelegatesComoParametros.Executar },
+                {" Métodos de Extensão -  Métodos e Funções  " , MetodosDeExtensao.Executar },
+
+
+                // Excecões 
+                {" Primeira Exeção -  Exceções" , PrimeiraExececao.Executar },
+                {" Execeções Personalizadas  -  Exceções" , ExececoesPersonalizadas.Executar },
+
+                // Api 
+               {" Execeções Personalizadas  -  Usando Api " , PrimeiroArquivo.Executar },
+               {" Lendo Arquivos   -  Usando Api " , LendoArquivos.Executar },
+               {" Exemplo File Info  -  Usando Api " , ExemploFileInfo.Executar },
+               {" Diretórios   -  Usando Api " , Diretorios.Executar },
+               {" Exemplo Directory Info   -  Usando Api " , ExemploDirectoryInfo.Executar },
             });
 
          
